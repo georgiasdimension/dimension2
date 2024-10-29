@@ -1,0 +1,36 @@
+/* Make the page endlessly scrollable */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300vh; /* Simulate endless scroll */
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#downloadBtn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: purple;
+    border: none;
+    cursor: pointer;
+}
+
+#downloadBtn:hover {
+    background-color: darkmagenta;
+}

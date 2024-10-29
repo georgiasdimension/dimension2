@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Realm of Creative Consciousness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The Realm of Creative Consciousness</h1>
+        <button id="downloadBtn">Click This</button>
+    </div>
+    <script>
+        // Download image functionality
+        document.getElementById("downloadBtn").addEventListener("click", function() {
+            const link = document.createElement("a");
+            link.href = "your-image.jpg"; // Replace with your image file name
+            link.download = "creative-download.jpg";
+            link.click();
+        });
+    </script>
+</body>
+</html>
